@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    width: 70%;
+    margin: auto;
+    font-family: Arial, sans-serif; /* Tambahkan font keluarga default */
+    background: url();
+}
+
+/* Header Styles */
+header h1.title,
+header h3.desc {
+    text-align: center;
+}
+
+/* Link Styles */
+a:link {
+    color: gray;
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: rgb(255, 255, 255);
+}
+a:active {
+    color: teal;
+}
+
+/* Navigation Styles */
+#navigation {
+    text-align: center; /* Center the navigation links */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0a3ad6;
+}
+li {
+    display: inline-block; /* Change to inline-block for better alignment */
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #10c0ec;
+}
+
+/* Content Styles */
+#contents {
+    margin: 20px 0; /* Add margin for better spacing */
+}
+
+/* Text Styles */
+p {
+    font-size: 110%;
+    color: #292a2b;
+}
+#galery 
+
+/* Footer Styling */
+footer {
+    background-color: #282929;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content p {
+    margin: 10px 0;
+    font-size: 1em;
+}
+
+.footer-content a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #323333;
+}
+
+/* .social-icons {
+    margin: 10px 0;
+}
+
+.social-icon {
+    margin: 0 15px;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+    background-color: #007BFF;
+    color: #ffffff;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 768px) {
+    .social-icons {
+        margin-top: 10px;
+    }
+    
+    .social-icon {
+        margin: 5px;
+        padding: 8px;
+    }
+ } */
